@@ -1,0 +1,6 @@
+{
+  "name": "Hindi-English PDF Editor",
+  "description": "An Android app to create, view, edit and organize PDF files in Hindi and English with categorized local folder management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

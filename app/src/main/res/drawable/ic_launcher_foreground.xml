@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background Document Sheet -->
+    <path
+        android:fillColor="#FAFAFA"
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="1.5"
+        android:pathData="M34,22 L58,22 L74,38 L74,86 L34,86 Z" />
+        
+    <!-- Folded top corner of the sheet -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M58,22 L74,38 L58,38 Z" />
+
+    <!-- Red Header Segment (Like PDF visual layout branding) -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M37,28 L53,28 L53,33 L37,33 Z" />
+
+    <!-- Visual lines inside document representing written content (Bilingual) -->
+    <!-- English character "A" inside document -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M43,46h4l4 12h-3l-1-3h-5l-1 3h-3l4-12zm3.5 2.5l-1.5 4.5h3l-1.5-4.5z" />
+
+    <!-- Hindi character "क" inside document -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M58,44h11V46h-5v4c1.5,0 2.5,0.7 2.5,2s-1,2 -2.5,2c-1,0 -1.8,-0.7 -1.8,-1.8v-2.2H60v-0.8c-1,0 -1.8,-0.7 -1.8,-1.8s0.7,-1.8 1.8,-1.8h0.2v-2zm0,1.2c-0.5,0 -1,0.3 -1,1s0.5,1 1,1h0.2v-2h-0.2zm4.2,2.8c0,0.5 0.5,1 1,1s1,-0.5 1,-1v-1.5h-2v1.5z" />
+
+    <!-- Additional dummy text drawing lines represent document flow -->
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M38,64 L70,64 L70,66 L38,66 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M38,70 L70,70 L70,72 L38,72 Z" />
+    <path
+        android:fillColor="#90A4AE"
+        android:pathData="M38,76 L60,76 L60,78 L38,78 Z" />
+</vector>
