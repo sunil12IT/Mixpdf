@@ -1,0 +1,4 @@
+- name: Decode Keystore
+  run: |
+    echo "${{ secrets.DEBUG_KEYSTORE_BASE64 }}" | base64 --decode > debug.keystore
+    
